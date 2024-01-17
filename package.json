@@ -21,6 +21,7 @@
     "@formkit/auto-animate": "^0.8.1",
     "@formkit/icons": "^1.5.0",
     "@formkit/nuxt": "^1.5.0",
+    "@formkit/tailwindcss": "^1.5.0",
     "autoprefixer": "^10.4.16",
     "node-fetch": "^3.3.2",
     "postcss": "^8.4.33",
