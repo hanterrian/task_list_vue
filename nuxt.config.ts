@@ -7,17 +7,15 @@ export default defineNuxtConfig({
         '@formkit/auto-animate/nuxt',
         '@nuxtjs/tailwindcss'
     ],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
     formkit: {
         // Experimental support for auto loading (see note):
         autoImport: true,
     },
-    vite: {
-        css: {
-            preprocessorOptions: {
-                scss: {
-                    additionalData: '@use "~/assets/_global.scss" as *;'
-                }
-            }
-        }
-    }
+    css: ['~/assets/css/main.css'],
 })
