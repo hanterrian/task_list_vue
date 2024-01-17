@@ -462,6 +462,21 @@
   resolved "https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.0.tgz"
   integrity sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==
 
+"@formkit/addons@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@formkit/addons/-/addons-1.5.0.tgz#f90b2a9bad158013bbee2522b2efb61753cfff89"
+  integrity sha512-8YR1wktLhrZMlWvIyrKT5ZvWoT1dOrBbKsXdlf9YaRw7zmx7Fzt/d17fCUOkA5MXxvQzT0dhwwjC5NJPWMaTyA==
+  dependencies:
+    "@formkit/auto-animate" latest
+    "@formkit/core" "1.5.0"
+    "@formkit/inputs" "1.5.0"
+    "@formkit/utils" "1.5.0"
+
+"@formkit/auto-animate@^0.8.1", "@formkit/auto-animate@latest":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@formkit/auto-animate/-/auto-animate-0.8.1.tgz#bcaba2969609ca3a7453eacd42b383a2739dfa35"
+  integrity sha512-0/Z2cuNXWVVIG/l0SpcHAWFhGdvLJ8DRvEfRWvmojtmRWfEy+LWNwgDazbZqY0qQYtkHcoEK3jBLkhiZaB/4Ig==
+
 "@formkit/core@1.5.0":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@formkit/core/-/core-1.5.0.tgz"
@@ -485,6 +500,13 @@
     "@formkit/core" "1.5.0"
     "@formkit/utils" "1.5.0"
     "@formkit/validation" "1.5.0"
+
+"@formkit/icons@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@formkit/icons/-/icons-1.5.0.tgz#5909fffbf074af091e0d25ae4a9bb4e8ecd0d7a6"
+  integrity sha512-rsdx2/2AEBnh0wB3TAzTc07lbv4mnZFIleVsoYB3Cpbb9hKyRaL9hOvjZb481yFMBMNToi9Wwtub0q2jAicN/Q==
+  dependencies:
+    "@formkit/core" "1.5.0"
 
 "@formkit/inputs@1.5.0":
   version "1.5.0"

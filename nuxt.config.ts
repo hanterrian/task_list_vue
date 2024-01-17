@@ -4,10 +4,20 @@ export default defineNuxtConfig({
     modules: [
         '@pinia/nuxt',
         '@formkit/nuxt',
+        '@formkit/auto-animate/nuxt',
         '@nuxtjs/tailwindcss'
     ],
     formkit: {
         // Experimental support for auto loading (see note):
-        autoImport: true
+        autoImport: true,
+    },
+    vite: {
+        css: {
+            preprocessorOptions: {
+                scss: {
+                    additionalData: '@use "~/assets/_global.scss" as *;'
+                }
+            }
+        }
     }
 })
