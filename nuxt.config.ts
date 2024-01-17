@@ -5,7 +5,8 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
         '@formkit/nuxt',
         '@formkit/auto-animate/nuxt',
-        '@nuxtjs/tailwindcss'
+        // '@nuxtjs/tailwindcss',
+        '@nuxt/ui'
     ],
     tailwindcss: {
         exposeConfig: true,
